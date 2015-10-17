@@ -1,0 +1,16 @@
+[
+{
+  "modid": "rjworld",
+  "name": "RJ's World",
+  "description": "RocketyJoa's Ideal World",
+  "version": "1.0.0.0",
+  "mcversion": "1.8",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["RocketyJoa"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
