@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-	@Mod(modid = Main.MODID, version = Main.VERSION, name = Main.NAME)
+@Mod(modid = Main.MODID, version = Main.VERSION, name = Main.NAME)
 	public class Main {
 	    public static final String MODID = "rjworld";
 	    public static final String NAME= "RJ's World";
@@ -29,7 +29,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 	    @EventHandler
 	    public void init(FMLInitializationEvent e){
 	    	this.proxy.init(e);
-		}
+        }
 	    
 	    @EventHandler
 	    public void postInit(FMLPostInitializationEvent e) {

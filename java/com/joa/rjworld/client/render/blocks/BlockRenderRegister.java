@@ -9,11 +9,12 @@ import net.minecraft.item.Item;
 
 public final class BlockRenderRegister {
 	public static void registerBlockRenderer() {
-    reg(ModBlocks.cyanite_block);
-    reg(ModBlocks.cyanite_ore);
-    reg(ModBlocks.zestoren_ore);
-    reg(ModBlocks.zestoren_block);
-    reg(ModBlocks.building_block);
+        reg(ModBlocks.cyanite_block);
+        reg(ModBlocks.cyanite_ore);
+        reg(ModBlocks.zestoren_ore);
+        reg(ModBlocks.zestoren_block);
+        reg(ModBlocks.building_block);
+        reg(ModBlocks.plasma_cluster);
 	}
 	
 	public static String modid = Main.MODID;
